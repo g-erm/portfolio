@@ -1,16 +1,11 @@
 import React from "react";
 import Thumbnail from '../Thumbnail/Thumbnail';
+import './Projects.css';
  
 function Projects(props) {
   return (
     <div>
       <h1>Projects</h1>
-      <Thumbnail 
-        link=""
-        image=""
-        title=""
-        category=""
-      />
 
       <Thumbnail
         link="/twitter"
@@ -32,6 +27,7 @@ function Projects(props) {
         title="Photoshop Redesign"
         category="Desktop App"
       />
+      
     </div>
   )
 }

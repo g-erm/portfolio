@@ -1,0 +1,17 @@
+.project {
+    width: 20%;
+    margin: 16px 8px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 3px 5px rgb(145, 145, 145);
+    padding: 16px;
+    text-align: center;
+    background-color: #9dffd9;
+}
+.project-title {
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+}

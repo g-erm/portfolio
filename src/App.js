@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './assets/logo.svg';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Projects from './components/Projects/Projects';
 import Articles from './components/Articles/Articles';
@@ -10,25 +9,24 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <h1>Portfolio Page</h1>
 
-        {// Set up the router
-        }
-        <Route exact path="/" component={Projects} />
-        <Route path="/articles" component={Articles} />
-        <Route path="/about" component={About} />
-
+        {/* Navigation */}
         <div className="navigation">
-          <img src={logo} className="logo" alt="Logo Image" />
           <div className="navigation-sub">
 
-            {// Set up Links
-            }
-            <Link to="/" className="item">Projects</Link>
+            <Link to="/projects" className="item">Projects</Link>
             <Link to="/articles" className="item">Articles</Link>
             <Link to="/about" className="item">About</Link>
 
           </div>
         </div>
+
+        {/* Router setup*/}
+        <Route path="/projects" component={Projects} />
+        <Route path="/articles" component={Articles} />
+        <Route path="/about" component={About} />
+
       </div>
     </BrowserRouter>
   );
