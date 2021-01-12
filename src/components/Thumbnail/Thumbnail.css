@@ -1,7 +1,8 @@
 .project {
     width: 20%;
-    margin: 16px 8px auto;
+    margin: 16px 10px auto;
     border: 1px solid #eee;
+    border-radius: 10px;
     box-shadow: 0 3px 5px rgb(145, 145, 145);
     padding: 16px;
     text-align: center;

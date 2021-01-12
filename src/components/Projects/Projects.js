@@ -1,10 +1,15 @@
 import React from "react";
 import Thumbnail from '../Thumbnail/Thumbnail';
 import './Projects.css';
+import { motion } from 'framer-motion';
  
 function Projects(props) {
   return (
-    <div>
+    <motion.div 
+      initial={{ x: '-200vw' }}
+      animate={{ x: 0 }}
+      transition={{ duration: 0.7, type: 'spring' }}>
+
       <h1>Projects</h1>
 
       <Thumbnail
@@ -28,7 +33,7 @@ function Projects(props) {
         category="Desktop App"
       />
       
-    </div>
+    </motion.div>
   )
 }
  

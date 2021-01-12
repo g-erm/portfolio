@@ -4,15 +4,28 @@ import Projects from './components/Projects/Projects';
 import Articles from './components/Articles/Articles';
 import About from './components/About/About';
 import './App.css';
+import { motion } from 'framer-motion';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1>Portfolio Page</h1>
+
+        <motion.h1
+          initial={{ y: -250, opacity: 0 }}
+          animate={{ y: -10, opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.75 }}>
+          <div><img src="assets/squarepic.jpg" alt="Profile Picture"/></div>
+          Portfolio Page
+        </motion.h1>
 
         {/* Navigation */}
-        <div className="navigation">
+        <motion.div 
+          className="navigation"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1.0 }}>
+
           <div className="navigation-sub">
 
             <Link to="/projects" className="item">Projects</Link>
@@ -20,7 +33,7 @@ function App() {
             <Link to="/about" className="item">About</Link>
 
           </div>
-        </div>
+        </motion.div>
 
         {/* Router setup*/}
         <Route path="/projects" component={Projects} />
