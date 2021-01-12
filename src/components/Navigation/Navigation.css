@@ -1,0 +1,9 @@
+.item {
+    text-decoration: none;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 10px;
+}

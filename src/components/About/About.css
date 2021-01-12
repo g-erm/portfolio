@@ -3,11 +3,12 @@
     height: 40vh;
 }
 
-.introtext {
-    padding: 5px;
-}
-
 .introcontainer {
     margin: auto;
     padding: 0vh 10vw;
+}
+
+.intropara {
+    font-size: 3vh;
+    font-weight: lighter;
 }

@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Projects from './components/Projects/Projects';
 import Articles from './components/Articles/Articles';
 import About from './components/About/About';
+import Navigation from './components/Navigation/Navigation';
 import './App.css';
 import { motion } from 'framer-motion';
 
@@ -11,28 +12,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
 
-        <motion.h1
-          initial={{ y: -250, opacity: 0 }}
-          animate={{ y: -10, opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.75 }}>
-          <About/>
-        </motion.h1>
-
-        {/* Navigation */}
-        <motion.div 
-          className="navigation"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 1.0 }}>
-
-          <div className="navigation-sub">
-
-            <Link to="/projects" className="item">Projects</Link>
-            <Link to="/articles" className="item">Articles</Link>
-            <Link to="/about" className="item">About</Link>
-
-          </div>
-        </motion.div>
+        <About/>
+        <Navigation/>
 
         {/* Router setup*/}
         <Route path="/projects" component={Projects} />
