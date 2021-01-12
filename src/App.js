@@ -15,8 +15,7 @@ function App() {
           initial={{ y: -250, opacity: 0 }}
           animate={{ y: -10, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.75 }}>
-          <div><img src="assets/squarepic.jpg" alt="Profile Picture"/></div>
-          Portfolio Page
+          <About/>
         </motion.h1>
 
         {/* Navigation */}
@@ -38,7 +37,7 @@ function App() {
         {/* Router setup*/}
         <Route path="/projects" component={Projects} />
         <Route path="/articles" component={Articles} />
-        <Route path="/about" component={About} />
+        <Route path="/about" component={Projects} />
 
       </div>
     </BrowserRouter>

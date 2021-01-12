@@ -1,0 +1,13 @@
+.profile {
+    border-radius: 50%;
+    height: 40vh;
+}
+
+.introtext {
+    padding: 5px;
+}
+
+.introcontainer {
+    margin: auto;
+    padding: 0vh 10vw;
+}
