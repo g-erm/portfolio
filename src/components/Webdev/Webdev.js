@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from 'framer-motion';
 import Thumbnail from '../Thumbnail/Thumbnail';
+import web from '../../assets/web.png';
  
 function Webdev(props) {
   return (
@@ -13,14 +14,16 @@ function Webdev(props) {
 
       <h1 className="section-title">_Webdev</h1>
       <div className="aboutjava">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tene
+        Although not experienced in this area, web development is one of my interests that I wish to explore further in.
+        Out of interest, I have took courses on HTML/CSS/JS as well as React.
       </div>
 
       <Thumbnail
-        link="/twitter"
-        image="https://www.flaticon.com/svg/vstatic/svg/124/124021.svg?token=exp=1610434599~hmac=e5537dabcca078005df47d561b32bbc5"
-        title="Twitter Newsfeed"
-        description="co laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        link="https://github.com/g-erm/portfolio"
+        image={web}
+        title="Portfolio"
+        description="This current webpage you are seeing is my first web development project I've embarked on! 
+        I do hope to slowly update and improve on it as I gain knowledge and experience from here on."
       />
 
     </motion.div>
