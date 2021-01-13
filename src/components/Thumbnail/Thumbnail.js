@@ -9,7 +9,7 @@ function Thumbnail(props) {
     <button className="project">
       <table>
         <tr style={{height: '10%'}}>
-          <th rowspan="2" style={{width: '30%'}}><img className="project-image" src={props.image} alt="Project Image"/></th>
+          <th rowspan="2" style={{width: '15%'}}><img className="project-image" src={props.image} alt="Project Image"/></th>
           <th style={{width: '70%'}}>
             <h1 className="project-title">{props.title}</h1>
           </th>
@@ -19,16 +19,18 @@ function Thumbnail(props) {
         </tr>
       </table>
 
-      <motion.button 
-        className="repo-link" 
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}> 
-        <Link to={props.link}>
+      <Link to={props.link}>
+        <motion.button 
+          className="repo-link" 
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}>
+
           <img className="github-logo" src={githublogo}/>
           <text className="view-repo">View Repository</text>
-        </Link>
-      </motion.button>
-      
+
+        </motion.button>
+      </Link>
+
     </button>
   );
 }
