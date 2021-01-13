@@ -10,9 +10,11 @@ function Navigation(props) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5, duration: 1.0 }}>
-      <Link to="/projects" className="item">Projects</Link>
-      <Link to="/articles" className="item">Articles</Link>
-      <Link to="/about" className="item">About</Link>
+
+      <a href="#java" className="item">Java</a>
+      <a href="#articles" className="item">Articles</a>
+      <a href="#projects" className="item">Projects</a>
+
     </motion.div>
   )
 }

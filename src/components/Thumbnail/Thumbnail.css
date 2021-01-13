@@ -1,18 +1,48 @@
 .project {
-    width: 20%;
+    width: 80%;
+    height: 40vh;
     margin: 16px 10px auto;
     border: 1px solid #eee;
     border-radius: 10px;
     box-shadow: 0 3px 5px rgb(145, 145, 145);
-    padding: 16px;
+    padding: 20px 20px 0px;
     text-align: center;
-    background-color: #9dffd9;
+    background-color: #EDFBE6;
 }
+
+.project-image {
+    height: 30vh;
+    width: auto;
+}
+
 .project-title {
-    width: 60%;
-    margin: 16px auto;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
-    padding: 16px;
-    text-align: center;
+    padding: 0px 16px;
+    text-align: left;
+}
+
+.project-description {
+    padding: 0px 32px;
+    text-align: left;
+}
+
+.repo-link {
+    float: right;
+    margin: -6vh 0px;
+    background-color: #B2D4C4;
+    border-radius: 10px;
+}
+
+.repo-link:hover {
+    background-color: #40798C;
+}
+
+.github-logo {
+    height: 5vh;
+    vertical-align: middle;
+}
+
+.view-repo {
+    vertical-align: middle;
+    padding: 0px 4px;
+    font-weight: bold;
 }

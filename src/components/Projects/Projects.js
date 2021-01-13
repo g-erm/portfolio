@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 function Projects(props) {
   return (
     <motion.div 
+      id="projects"
       initial={{ x: '-200vw' }}
       animate={{ x: 0 }}
       transition={{ duration: 0.7, type: 'spring' }}>
@@ -16,21 +17,21 @@ function Projects(props) {
         link="/twitter"
         image="https://www.flaticon.com/svg/vstatic/svg/124/124021.svg?token=exp=1610434599~hmac=e5537dabcca078005df47d561b32bbc5"
         title="Twitter Newsfeed"
-        category="Mobile App"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       />
       
       <Thumbnail
         link="/airbnb"
         image="http://airbnb-image-url.jpg>"
         title="Airbnb Experiences"
-        category="Website"
+        description="Website"
       />
       
       <Thumbnail
         link="/photoshop"
         image="http://photoshop-image-url.jpg"
         title="Photoshop Redesign"
-        category="Desktop App"
+        description="Desktop App"
       />
       
     </motion.div>
