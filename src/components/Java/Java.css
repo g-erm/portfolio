@@ -1,5 +1,7 @@
 .aboutjava {
-    padding: 0vh 10vw;
+    padding: 3vh 10vw;
+    font-size: 3.5vh;
+    text-align: left;
 }
 
 .java-container {

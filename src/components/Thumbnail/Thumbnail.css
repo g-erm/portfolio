@@ -1,6 +1,6 @@
 .project {
     width: 80%;
-    height: 30vh;
+    height: 28vh;
     margin: 16px 10px auto;
     border: 0px;
     border-radius: 10px;
@@ -11,23 +11,25 @@
 }
 
 .project-image {
-    height: 20vh;
+    height: 14vh;
     width: auto;
 }
 
 .project-title {
     text-align: left;
-    color: #F8FFFB;
+    color: #E6AF2E;
 }
 
 .project-description {
-    padding: 0px 16px;
+    margin: 0 8vw 0 0;
+    padding: 0 16px;
     text-align: left;
+    font-size: 2.5vh;
 }
 
 .repo-link {
     float: right;
-    margin: -3vh 1vw;
+    margin: -1.5vh 1vw;
     background-color: #F8FFFB;
     box-shadow: 0 0 3px 1px #7CB88C;
     border-radius: 10px;

@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './Thumbnail.css';
 import { motion } from 'framer-motion';
 import githublogo from '../../assets/github.png'
@@ -19,7 +18,7 @@ function Thumbnail(props) {
         </tr>
       </table>
 
-      <Link to={props.link}>
+      <a href={props.link}>
         <motion.button 
           className="repo-link" 
           whileHover={{ scale: 1.05 }}
@@ -29,7 +28,7 @@ function Thumbnail(props) {
           <text className="view-repo">View Repository</text>
 
         </motion.button>
-      </Link>
+      </a>
 
     </button>
   );
