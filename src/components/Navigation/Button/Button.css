@@ -1,5 +1,12 @@
+@font-face {
+    font-family: computerFont;
+    src: url(../../../assets/nk57-monospace-no-bk.ttf);
+}
+
 .item {
     text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-family: computerFont;
     color: #EDFBE6;
     border-color: #E6AF2E;
     border-style: solid;

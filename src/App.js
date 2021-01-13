@@ -6,7 +6,7 @@ import About from './components/About/About';
 import Java from './components/Java/Java';
 import Webdev from './components/Webdev/Webdev';
 import Appdev from './components/Appdev/Appdev';
-import Articles from './components/Articles/Articles';
+import Contact from './components/Contact/Contact';
 import './App.css';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Java/>
         <Webdev/>
         <Appdev/>
-        <Articles/>
+        <Contact/>
 
         {/* Router setup
         <Route path="/projects" component={Projects} />

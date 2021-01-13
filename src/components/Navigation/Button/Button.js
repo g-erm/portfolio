@@ -6,7 +6,7 @@ function Button(props) {
   return (
     <div>
       <motion.a 
-        whileHover={{boxShadow: "0 0 5px #E6AF2E", 
+        whileHover={{boxShadow: "0 0 15px #E6AF2E", 
           borderWidth: "2px",
           fontWeight: 'bold'}}
         href={props.link} 

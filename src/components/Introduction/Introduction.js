@@ -12,7 +12,7 @@ function Introduction(props) {
           animate={{ y: -10, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.75 }}>
 
-      <h1>g-erm</h1>
+      <h1 className="page-title">g-erm</h1>
       
       <table className="introcontainer">
         <tr>

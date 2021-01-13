@@ -15,7 +15,7 @@ function Navigation(props) {
       <Button link="#java" desc="JAVA"/>
       <Button link="#webdev" desc="WEBDEV"/>
       <Button link="#appdev" desc="APPDEV"/>
-      <Button link="#articles" desc="ARTICLES"/>
+      <Button link="#contact" desc="CONTACT"/>
 
     </motion.div>
   )

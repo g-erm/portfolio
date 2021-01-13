@@ -1,3 +1,18 @@
+@font-face {
+    font-family: computerFont;
+    src: url(../../assets/nk57-monospace-no-bk.ttf);
+}
+
+.section-title {
+    font-family: computerFont;
+    letter-spacing: 0.5rem;
+    background-color: #48504A;
+    color: #F8FFFB;
+    margin: 2vh 10vw;
+    padding: 1vh 0;
+    text-align: left;
+}
+
 .aboutpara {
     padding: 0vh 10vw 10vh;
 }

@@ -12,3 +12,14 @@
     font-size: 3vh;
     font-weight: lighter;
 }
+
+@font-face {
+    font-family: typewriterFont;
+    src: url(../../assets/veteran\ typewriter.ttf);
+}
+
+.page-title {
+    font-family: typewriterFont;
+    font-weight: lighter;
+    letter-spacing: 1rem;
+}
