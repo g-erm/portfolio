@@ -1,4 +1,7 @@
-.header {
-    margin: 0 10vw;
-    text-align: left;
+.aboutjava {
+    padding: 0vh 10vw;
+}
+
+.java-container {
+    padding: 0vh 0vw 10vh;
 }

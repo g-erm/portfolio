@@ -1,16 +1,6 @@
-.item {
-    text-decoration: none;
-    color: #EDFBE6;
-    border-color: #E6AF2E;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 15px;
-    margin: 30px;
-    padding: 10px;
-}
-
-.item:hover {
-    box-shadow: 0 0 3px #E6AF2E;
-    border-width: 2px;
-    font-weight: bold;
+.navigation-sub {
+    height: 24vh;
+    justify-content: center;
+    display:flex; 
+    flex-direction:row;
 }

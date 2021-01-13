@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Java from './components/Java/Java';
-import Articles from './components/Articles/Articles';
 import Introduction from './components/Introduction/Introduction';
 import Navigation from './components/Navigation/Navigation';
-import './App.css';
+import About from './components/About/About';
+import Java from './components/Java/Java';
 import Webdev from './components/Webdev/Webdev';
+import Appdev from './components/Appdev/Appdev';
+import Articles from './components/Articles/Articles';
+import './App.css';
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
 
         <Introduction/>
         <Navigation/>
+        <About/>
         <Java/>
         <Webdev/>
+        <Appdev/>
         <Articles/>
 
         {/* Router setup
