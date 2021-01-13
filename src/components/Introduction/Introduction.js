@@ -1,4 +1,6 @@
 import React from "react";
+import githublogo from '../../assets/github-white.jpg';
+import linkedinlogo from '../../assets/linkedinlogo.png';
 import profile from '../../assets/squarepic.jpg';
 import './Introduction.css';
 import { motion } from 'framer-motion';
@@ -13,6 +15,16 @@ function Introduction(props) {
           transition={{ delay: 0.5, duration: 0.75 }}>
 
       <h1 className="page-title">g-erm</h1>
+
+      <div>
+        <a href="https://github.com/g-erm/">
+          <img className="logo" src={githublogo}/>
+        </a>
+
+        <a href="https://www.linkedin.com/in/g-erm/">
+          <img className="logo" src={linkedinlogo}/>
+        </a>
+      </div>
       
       <table className="introcontainer">
         <tr>
@@ -23,7 +35,6 @@ function Introduction(props) {
           </th>
         </tr>
       </table>
-
       </motion.h1>
     </div>
   )
