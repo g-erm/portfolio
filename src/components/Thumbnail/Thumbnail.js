@@ -6,17 +6,6 @@ import githublogo from '../../assets/github.png'
 function Thumbnail(props) {
   return (
     <button className="project">
-      <table>
-        <tr style={{height: '10%'}}>
-          <th rowspan="2" style={{width: '15%'}}><img className="project-image" src={props.image} alt="Project Image"/></th>
-          <th style={{width: '70%'}}>
-            <h1 className="project-title">{props.title}</h1>
-          </th>
-        </tr>
-        <tr>
-          <div className="project-description">{props.description}</div>
-        </tr>
-      </table>
 
       <a href={props.link}>
         <motion.button 
@@ -29,6 +18,18 @@ function Thumbnail(props) {
 
         </motion.button>
       </a>
+
+      <table>
+        <tr style={{height: '10%'}}>
+          <th rowspan="2" style={{width: '15%'}}><img className="project-image" src={props.image} alt="Project Image"/></th>
+          <th style={{width: '70%'}}>
+            <h1 className="project-title">{props.title}</h1>
+          </th>
+        </tr>
+        <tr>
+          <div className="project-description">{props.description}</div>
+        </tr>
+      </table>
 
     </button>
   );

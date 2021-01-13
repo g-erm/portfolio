@@ -4,7 +4,7 @@
     margin: 16px 10px auto;
     border: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 5px 0px #F8FFFB;
+    /* box-shadow: 0 0 5px 0px #F8FFFB; */
     text-align: center;
     background-color: transparent;
     color: white;
@@ -21,15 +21,14 @@
 }
 
 .project-description {
-    margin: 0 8vw 0 0;
-    padding: 0 16px;
+    margin: 0 2vw 0 0;
     text-align: left;
     font-size: 2.5vh;
 }
 
 .repo-link {
     float: right;
-    margin: -1.5vh 1vw;
+    margin: 8vh 1vw;
     background-color: #F8FFFB;
     box-shadow: 0 0 3px 1px #7CB88C;
     border-radius: 10px;
