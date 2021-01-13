@@ -1,22 +1,22 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Projects from './components/Projects/Projects';
+import Java from './components/Java/Java';
 import Articles from './components/Articles/Articles';
-import About from './components/About/About';
+import Introduction from './components/Introduction/Introduction';
 import Navigation from './components/Navigation/Navigation';
 import './App.css';
-import Java from './components/Java/Java';
+import Webdev from './components/Webdev/Webdev';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
 
-        <About/>
+        <Introduction/>
         <Navigation/>
         <Java/>
+        <Webdev/>
         <Articles/>
-        <Projects/>
 
         {/* Router setup
         <Route path="/projects" component={Projects} />

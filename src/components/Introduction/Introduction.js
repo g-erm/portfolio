@@ -1,9 +1,9 @@
 import React from "react";
 import profile from '../../assets/squarepic.jpg';
-import './About.css';
+import './Introduction.css';
 import { motion } from 'framer-motion';
  
-function About(props) {
+function Introduction(props) {
   return (
     <div>
 
@@ -29,4 +29,4 @@ function About(props) {
   )
 }
  
-export default About;
+export default Introduction;
