@@ -9,7 +9,7 @@ function Navigation(props) {
       className="navigation-sub"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ delay: 0.5, duration: 1.0 }}>
+      transition={{ delay: 1.3, duration: 1.0 }}>
       
       <Button link="#about" desc="ABOUT"/>
       <Button link="#java" desc="JAVA"/>

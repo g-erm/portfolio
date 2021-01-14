@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Introduction from './components/Introduction/Introduction';
 import Navigation from './components/Navigation/Navigation';
@@ -14,6 +15,13 @@ function App() {
     <BrowserRouter>
       <div className="App">
 
+        <motion.h1 
+          className="page-title"
+          initial={{ y: -250, opacity: 0 }}
+          animate={{ y: -10, opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.75 }}>
+          g-erm
+        </motion.h1>
         <Introduction/>
         <Navigation/>
         <About/>

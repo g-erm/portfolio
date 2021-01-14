@@ -37,3 +37,11 @@
     transform: rotate(360deg);
   }
 }
+
+.page-title {
+  font-family: typewriterFont;
+  font-weight: lighter;
+  letter-spacing: 1rem;
+  margin: 8vh 0 1vh;
+  font-size: 12vh;
+}

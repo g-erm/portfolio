@@ -7,7 +7,12 @@ import maillogo from '../../assets/email.png';
  
 function Contact(props) {
   return (
-    <div id="contact">
+    <motion.div 
+      id="contact"
+      initial={{ x: '-200vw' }}
+      animate={{ x: 0 }}
+      transition={{  delay: 1.4, duration: 1.4, type: 'spring' }}>
+
       <h1 className="section-title">_ContactMe</h1>
       <div className="contact-para">
         I would love to add on to this website with more experiences and upgrade it in the future!
@@ -49,7 +54,7 @@ function Contact(props) {
         </p>
       </div>
 
-    </div>
+    </motion.div>
   )
 }
  

@@ -23,13 +23,6 @@
     src: url(../../assets/veteran\ typewriter.ttf);
 }
 
-.page-title {
-    font-family: typewriterFont;
-    font-weight: lighter;
-    letter-spacing: 1rem;
-    margin: 8vh 0 1vh;
-}
-
 .dimension {
     font-size: 1.5vh;
     font-weight: 100;

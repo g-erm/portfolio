@@ -11,7 +11,7 @@ function Appdev(props) {
       className="java-container"
       initial={{ x: '-200vw' }}
       animate={{ x: 0 }}
-      transition={{ duration: 0.7, type: 'spring' }}>
+      transition={{  delay: 1.4, duration: 1.3, type: 'spring' }}>
 
       <h1 className="section-title">_Appdev</h1>
       <div className="aboutjava">

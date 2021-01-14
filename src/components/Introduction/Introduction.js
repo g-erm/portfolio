@@ -10,42 +10,40 @@ function Introduction(props) {
     <div>
 
       <motion.h1
-          initial={{ y: -250, opacity: 0 }}
-          animate={{ y: -10, opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.75 }}>
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.3, duration: 0.75 }}>
 
-      <h1 className="page-title">g-erm</h1>
+        <div>
+          <a href="https://github.com/g-erm/">
+            <img className="logo" src={githublogo}/>
+          </a>
 
-      <div>
-        <a href="https://github.com/g-erm/">
-          <img className="logo" src={githublogo}/>
-        </a>
+          <a href="https://www.linkedin.com/in/g-erm/">
+            <img className="logo" src={linkedinlogo}/>
+          </a>
+        </div>
+        
+        <table className="introcontainer">
+          <tr>
+            <th style={{width: '30%'}}><img className="profile" src={profile} alt="Profile Picture"/></th>
+            <th style={{width: '70%'}}>
 
-        <a href="https://www.linkedin.com/in/g-erm/">
-          <img className="logo" src={linkedinlogo}/>
-        </a>
-      </div>
-      
-      <table className="introcontainer">
-        <tr>
-          <th style={{width: '30%'}}><img className="profile" src={profile} alt="Profile Picture"/></th>
-          <th style={{width: '70%'}}>
+              <h3 style={{fontWeight:'400', color:'#7CB88C'}}>
+                Hello there! I am
+                <text style={{fontWeight:'500', color:'white'}}> Germaine Tan</text>
+                .
+              </h3>
 
-            <h3 style={{fontWeight:'400', color:'#7CB88C'}}>
-              Hello there! I am
-              <text style={{fontWeight:'500', color:'white'}}> Germaine Tan</text>
-              .
-            </h3>
+              <text className="intropara">
+                Click the icons above to check out my Github and Linkedin profiles, 
+                or stay around and learn more about me by clicking on any of the tabs below!
+              </text>
 
-            <text className="intropara">
-              Click the icons above to check out my Github and Linkedin profiles, 
-              or stay around and learn more about me by clicking on any of the tabs below!
-            </text>
-
-          </th>
-        </tr>
-      </table>
-      <text className="dimension">(This page is best viewed on a full-screen browser window. Developed on 1519px x 754px window.)</text>
+            </th>
+          </tr>
+        </table>
+        <text className="dimension">(This page is best viewed on a full-screen browser window. Developed on 1519px x 754px window.)</text>
       </motion.h1>
     </div>
   )

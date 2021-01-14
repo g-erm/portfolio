@@ -10,7 +10,7 @@ function Webdev(props) {
       className="java-container"
       initial={{ x: '-200vw' }}
       animate={{ x: 0 }}
-      transition={{ duration: 0.7, type: 'spring' }}>
+      transition={{  delay: 1.4, duration: 1.2, type: 'spring' }}>
 
       <h1 className="section-title">_Webdev</h1>
       <div className="aboutjava">
