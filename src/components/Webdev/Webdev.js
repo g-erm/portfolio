@@ -15,7 +15,7 @@ function Webdev(props) {
       <h1 className="section-title">_Webdev</h1>
       <div className="aboutjava">
         Although not experienced in this area, web development is one of my interests that I wish to explore further in.
-        Out of interest, I have took courses on HTML/CSS/JS as well as React.
+        Out of interest, I have been taking courses on HTML/CSS/JS as well as React.
       </div>
 
       <Thumbnail

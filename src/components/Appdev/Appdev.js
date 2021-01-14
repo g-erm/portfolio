@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from 'framer-motion';
 import Thumbnail from '../Thumbnail/Thumbnail';
+import unity from '../../assets/unity.png';
+import android from '../../assets/android.png';
  
 function Appdev(props) {
   return (
@@ -13,21 +15,21 @@ function Appdev(props) {
 
       <h1 className="section-title">_Appdev</h1>
       <div className="aboutjava">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tene
+        I have a little experience in app development using Unity and Android Studio before, as listed.
       </div>
 
       <Thumbnail
-        link="/twitter"
-        image="https://www.flaticon.com/svg/vstatic/svg/124/124021.svg?token=exp=1610434599~hmac=e5537dabcca078005df47d561b32bbc5"
-        title="Twitter Newsfeed"
-        description="co laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        link="https://github.com/g-erm/RnG"
+        image={unity}
+        title="RnG – Platformer Android Mobile Game"
+        description="Worked in a team of 2 developers using Unity and C# programming language, I was mainly responsible for the design and workings of the actual gameplay."
       />
 
       <Thumbnail
-        link="/airbnb"
-        image="https://www.flaticon.com/svg/vstatic/svg/124/124021.svg?token=exp=1610434599~hmac=e5537dabcca078005df47d561b32bbc5"
-        title="Airbnb Experiences"
-        description="co laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui offic"
+        link="https://github.com/g-erm/DSTA-CODE_EXP-2020"
+        image={android}
+        title="DSTA CODE_EXP 2020 Hackathon"
+        description="Worked together with 4 other developers to develop an “all-in-one” Android application targeted at the elderly amongst the COVID-19 situation using Android Studio in Java programming language."
       />
 
     </motion.div>

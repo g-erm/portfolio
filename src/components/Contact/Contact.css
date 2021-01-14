@@ -1,0 +1,28 @@
+.contact-para {
+    padding: 3vh 10vw;
+    font-size: 3vh;
+    text-align: left;
+}
+
+.contact-div {
+    margin: 0vh 4vw 10vh 0;
+}
+
+.contact-logo {
+    vertical-align: middle;
+    height: 10vh;
+    margin: 0 1vw 0 5vw;
+}
+
+@font-face {
+    font-family: computerFont;
+    src: url(../../assets/nk57-monospace-no-bk.ttf);
+}
+
+.contact-info {
+    text-decoration: none;
+    font-family: computerFont;
+    color: #48504A;
+    font-weight: bold;
+}
+
