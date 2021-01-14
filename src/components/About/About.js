@@ -6,7 +6,12 @@ function About(props) {
     <div id="about">
       <h1 className="section-title">_AboutMe</h1>
       <div className="aboutpara">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tene
+        <p style={{color:'#7CB88C'}}>Hello :)</p>I'm Germaine Tan, an undergraduate. I am currently in my second year of pursuing a Bachelor's Degree in Computing, Computer Science in National University of Singapore (NUS). 
+        My interest lies in front end development, software engineering and I like learning about UI/UX design as well! 
+        <p>
+          This simple portfolio page is created from scratch by myself, to allow myself to learn more about web development while working on something. 
+          Even though it is not super impressive, I do hope to improve on it while I gain more experience and knowledge about web development. 
+        </p>
       </div>
     </div>
   )

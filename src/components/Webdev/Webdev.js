@@ -23,6 +23,7 @@ function Webdev(props) {
         image={web}
         title="Portfolio"
         description="This current webpage you are seeing is my first web development project I've embarked on! 
+        It is not very fancy, but I am pretty satisfied with the little animations I've managed to do.
         I do hope to slowly update and improve on it as I gain knowledge and experience from here on."
       />
 

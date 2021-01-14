@@ -30,11 +30,22 @@ function Introduction(props) {
         <tr>
           <th style={{width: '30%'}}><img className="profile" src={profile} alt="Profile Picture"/></th>
           <th style={{width: '70%'}}>
-            <h3>Hello there! I am Germaine Tan.</h3>
-            <text className="intropara">I am currently in my second year of pursuing a Bachelor's Degree in Computer Science at National University of Singapore.</text>
+
+            <h3 style={{fontWeight:'400', color:'#7CB88C'}}>
+              Hello there! I am
+              <text style={{fontWeight:'500', color:'white'}}> Germaine Tan</text>
+              .
+            </h3>
+
+            <text className="intropara">
+              Click the icons above to check out my Github and Linkedin profiles, 
+              or stay around and learn more about me by clicking on any of the tabs below!
+            </text>
+
           </th>
         </tr>
       </table>
+      <text className="dimension">(This page is best viewed on a full-screen browser window. Developed on 1519px x 754px window.)</text>
       </motion.h1>
     </div>
   )

@@ -14,5 +14,8 @@
 }
 
 .aboutpara {
-    padding: 0vh 10vw 10vh;
+    padding: 3vh 10vw;
+    font-size: 3vh;
+    text-align: left;
+    font-weight: 300;
 }

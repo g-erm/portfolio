@@ -15,7 +15,7 @@
 
 .intropara {
     font-size: 3vh;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 @font-face {
@@ -28,4 +28,9 @@
     font-weight: lighter;
     letter-spacing: 1rem;
     margin: 8vh 0 1vh;
+}
+
+.dimension {
+    font-size: 1.5vh;
+    font-weight: 100;
 }

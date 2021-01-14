@@ -30,14 +30,19 @@
 .repo-link {
     float: right;
     margin: 8vh 1vw;
-    background-color: #F8FFFB;
-    box-shadow: 0 0 3px 1px #7CB88C;
+    background-color: transparent;
+    box-shadow: 0 0 3px #7CB88C;
     border-radius: 10px;
     border: 0px;
+    color: #48504A;
+    font-weight: 300;
 }
 
 .repo-link:hover {
     box-shadow: 0 0 3px 2px #7CB88C;
+    background-color: #7CB88C;
+    color: #171D1C;
+    font-weight: bold;
 }
 
 .github-logo {
@@ -49,6 +54,5 @@
 .view-repo {
     vertical-align: middle;
     padding: 0px 4px;
-    font-weight: bold;
     text-decoration: none;
 }
