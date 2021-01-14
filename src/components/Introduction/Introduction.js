@@ -1,9 +1,9 @@
 import React from "react";
+import { motion } from 'framer-motion';
 import githublogo from '../../assets/github-white.jpg';
 import linkedinlogo from '../../assets/linkedinlogo.png';
 import profile from '../../assets/squarepic.jpg';
 import './Introduction.css';
-import { motion } from 'framer-motion';
  
 function Introduction(props) {
   return (

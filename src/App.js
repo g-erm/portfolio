@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Introduction from './components/Introduction/Introduction';
 import Navigation from './components/Navigation/Navigation';
 import About from './components/About/About';

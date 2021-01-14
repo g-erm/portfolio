@@ -1,8 +1,8 @@
 import React from "react";
-import './Navigation.css';
 import { motion } from 'framer-motion';
 import Button from './Button/Button';
- 
+import './Navigation.css';
+
 function Navigation(props) {
   return (
     <motion.div 

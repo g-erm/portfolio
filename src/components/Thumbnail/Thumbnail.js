@@ -1,8 +1,8 @@
 import React from 'react';
-import './Thumbnail.css';
 import { motion } from 'framer-motion';
 import githublogo from '../../assets/github.png'
- 
+import './Thumbnail.css';
+
 function Thumbnail(props) {
   return (
     <button className="project">

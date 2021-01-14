@@ -18,11 +18,6 @@
     font-weight: 300;
 }
 
-@font-face {
-    font-family: typewriterFont;
-    src: url(../../assets/veteran\ typewriter.ttf);
-}
-
 .dimension {
     font-size: 1.5vh;
     font-weight: 100;

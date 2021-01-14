@@ -1,10 +1,10 @@
 import React from "react";
-import Thumbnail from '../Thumbnail/Thumbnail';
-import './Java.css';
 import { motion } from 'framer-motion';
+import Thumbnail from '../Thumbnail/Thumbnail';
 import timmi from '../../assets/Timmi.png';
 import candidates from '../../assets/Candidates1.png';
 import dsta from '../../assets/dsta.png';
+import './Java.css';
  
 function Java(props) {
   return (

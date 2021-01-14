@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from 'framer-motion';
-import './Contact.css';
 import githublogo from '../../assets/github-white.jpg';
 import linkedinlogo from '../../assets/linkedinlogo.png';
 import maillogo from '../../assets/email.png';
+import './Contact.css';
  
 function Contact(props) {
   return (
