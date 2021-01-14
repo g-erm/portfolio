@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.752183f6.chunk.css",
+    "main.js": "/portfolio/static/js/main.b9acb08d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b9acb08d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.82157018.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.82157018.js.map",
+    "static/js/2.a651394a.chunk.js": "/portfolio/static/js/2.a651394a.chunk.js",
+    "static/js/2.a651394a.chunk.js.map": "/portfolio/static/js/2.a651394a.chunk.js.map",
+    "static/js/3.4a6eb498.chunk.js": "/portfolio/static/js/3.4a6eb498.chunk.js",
+    "static/js/3.4a6eb498.chunk.js.map": "/portfolio/static/js/3.4a6eb498.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.752183f6.chunk.css.map": "/portfolio/static/css/main.752183f6.chunk.css.map",
+    "static/js/2.a651394a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a651394a.chunk.js.LICENSE.txt",
+    "static/media/Candidates1.b9f38f8a.png": "/portfolio/static/media/Candidates1.b9f38f8a.png",
+    "static/media/android.6367e181.png": "/portfolio/static/media/android.6367e181.png",
+    "static/media/dsta.170771da.png": "/portfolio/static/media/dsta.170771da.png",
+    "static/media/email.2a25cd72.png": "/portfolio/static/media/email.2a25cd72.png",
+    "static/media/github-white.d4f06056.jpg": "/portfolio/static/media/github-white.d4f06056.jpg",
+    "static/media/github.d3263084.png": "/portfolio/static/media/github.d3263084.png",
+    "static/media/linkedinlogo.3b4ef573.png": "/portfolio/static/media/linkedinlogo.3b4ef573.png",
+    "static/media/Contact.css": "/portfolio/static/media/nk57-monospace-no-bk.f7db1399.ttf",
+    "static/media/squarepic.3d475dd5.jpg": "/portfolio/static/media/squarepic.3d475dd5.jpg",
+    "static/media/unity.db5363e2.png": "/portfolio/static/media/unity.db5363e2.png",
+    "static/media/App.css": "/portfolio/static/media/veteran typewriter.c0ea152d.ttf",
+    "static/media/web.6ab042d1.png": "/portfolio/static/media/web.6ab042d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82157018.js",
+    "static/js/2.a651394a.chunk.js",
+    "static/css/main.752183f6.chunk.css",
+    "static/js/main.b9acb08d.chunk.js"
+  ]
+}
